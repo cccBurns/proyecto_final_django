@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="entrenamiento funcional, Zona sur, gym, Lomas de zamora, vida sana, entrenamiento al aire libre" >
+    <meta name="description" content="Somos lideres en entrenamiento funcional en la zona sur del conurbano de la provincia de Bs As.">
+
+    {% block title_head %}
+    <title>Base</title>
+    {% endblock title_head %}
+
+    <link href={% static "css/styles.css" %} rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/logo1.jpeg" type="image/x-icon">
+    
+</head>
+
+<body id="arriba">
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">EQUIPO <span class="logospan">MENTE</span></a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="./img/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a class="navbar-brand" href={% url "inicio" %}>Inicio</a></li>
+                    <li><a class="navbar-brand" href={% url "nosotros" %}>Nosotros</a></li>
+                    <li><a class="navbar-brand" href={% url "placavideo" %}>Placas de video</a></li>
+                    <li><a class="navbar-brand" href={% url "procesador" %}>Procesadores</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>   
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1><span class="green">equipo</span>MENTE</h1>
+                <p><strong>Encargados de cuidar tu pensamiento.</strong></p>                
+            </div>
+        </div>
+    </header>    
+
+    {% block section %}
+    {% endblock section %}
+
+    {% block main %}
+    {% endblock main %}
+
+
+    <section class="blog">
+        <span></span>
+        <h2>NOS ESPECIALIZAMOS EN:</h2>
+
+        <div class="blog-content container">
+            <div class="blog-1">
+                <img src="./img/neurologo-madrid.jpg" alt="">
+                <div class="blog-txt">
+                    <span> <strong> Neurologia </strong> </span>
+                    <h3>ENFERMEDADES NEUROINMUNOLÓGICAS</h3>
+                    <p>La neurología cognitiva es una subespecialidad de la neurología que estudia las enfermedades neurológicas que compromenten,
+                         la memoria, el lenguaje, la atención, el comportamiento,
+                         entre otras funciones mentales, responsables en su conjunto de la capacidad inherente al ser humano, de poder aprender,
+                         relacionarse , interactuar, trabajar, vivir en sociedad.
+                    </p>
+                </div>
+            </div>
+
+            <div class="blog-1">
+                <img src="./img/neurociencia-cognitiva.jpg" alt="">
+                <div class="blog-txt">
+                    <span> <strong> Neurologia Cognitiva </strong> </span>
+                    <h3>¿QUE ES LA NEUROLOGIA COGNITIVA?</h3>
+                    <p>La neurología cognitiva es una subespecialidad de la neurología que estudia las enfermedades neurológicas que compromenten,
+                        la memoria, el lenguaje, la atención, el comportamiento, entre otras funciones mentales,
+                        responsables en su conjunto de la capacidad inherente al ser humano, de poder aprender,
+                        relacionarse , interactuar, trabajar, vivir en sociedad.
+                    </p>                    
+                </div>
+            </div>
+
+            <div class="blog-1">
+                <img src="./img/NVASCULAR.jpg" alt="">
+                <div class="blog-txt">
+                    <span> <strong> Neurologia Vascular </strong> </span>
+                    <h3>¿QUE ES LA NEUROLOGIA VASCULAR?</h3>
+                    <p>La neurología vascular es una subespecialidad de la neurología que se encarga del diagnóstico y tratamiento tanto agudo (pocas horas o dias)
+                        como crónico (meses o años) de las enfermedades cerebrovasculares.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">        
+        <div class="social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+
+            <ul>
+                <li>
+                    <a href="#arriba">Inicio</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="areas.html">Areas atendidas</a>
+                </li>
+                <li>
+                    <a href="prensa.html">Prensa y difusion</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+
+            <p class="copyright">
+                equipo MENTE Argentina 2023 ® todos los derechos reservados
+            </p>
+    </footer>
+        
+        <script src="https://kit.fontawesome.com/96269ff2ef.js" crossorigin="anonymous"></script>
+        
+    </body>
+    </html>
