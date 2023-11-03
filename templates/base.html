@@ -23,6 +23,8 @@
 
 <body id="arriba">
 
+    {% block header %}
+
     <header class="header">
         <div class="menu container">
             <a href="#" class="logo">hard <span class="logospan">Gamers</span></a>
@@ -45,10 +47,12 @@
         <div class="header-content container">
             <div class="header-txt">
                 <h1><span class="green">hard</span>Gamers</h1>
-                <p><strong>Encargados de cuidar tu pensamiento.</strong></p>                
+                <p><strong>De gamers para gamers.</strong></p>                
             </div>
         </div>
     </header>    
+
+    {% endblock header %}
 
     {% block section %}
     {% endblock section %}
@@ -57,50 +61,7 @@
     {% endblock main %}
 
 
-    <section class="blog">
-        <span></span>
-        <h2>NOS ESPECIALIZAMOS EN:</h2>
-
-        <div class="blog-content container">
-            <div class="blog-1">
-                <img src="../static/assets/img/bg-showcase-3.jpg" alt="">
-                <div class="blog-txt">
-                    <span> <strong> Placas de video </strong> </span>
-                    <h3>Nvidia - AMD </h3>
-                    <p>La neurología cognitiva es una subespecialidad de la neurología que estudia las enfermedades neurológicas que compromenten,
-                         la memoria, el lenguaje, la atención, el comportamiento,
-                         entre otras funciones mentales, responsables en su conjunto de la capacidad inherente al ser humano, de poder aprender,
-                         relacionarse , interactuar, trabajar, vivir en sociedad.
-                    </p>
-                </div>
-            </div>
-
-            <div class="blog-1">
-                <img src="../static/assets/img/bg-showcase.jpg" alt="">
-                <div class="blog-txt">
-                    <span> <strong> Procesadores </strong> </span>
-                    <h3>Intel - AMD</h3>
-                    <p>La neurología cognitiva es una subespecialidad de la neurología que estudia las enfermedades neurológicas que compromenten,
-                        la memoria, el lenguaje, la atención, el comportamiento, entre otras funciones mentales,
-                        responsables en su conjunto de la capacidad inherente al ser humano, de poder aprender,
-                        relacionarse , interactuar, trabajar, vivir en sociedad.
-                    </p>                    
-                </div>
-            </div>
-
-            <div class="blog-1">
-                <img src="../static/assets/img/bg-showcase-1.jpg" alt="">
-                <div class="blog-txt">
-                    <span> <strong> Monitores </strong> </span>
-                    <h3>La mejor linea</h3>
-                    <p>La neurología vascular es una subespecialidad de la neurología que se encarga del diagnóstico y tratamiento tanto agudo (pocas horas o dias)
-                        como crónico (meses o años) de las enfermedades cerebrovasculares.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </section>
+    
 
     <footer class="footer">        
         <div class="social">
@@ -118,10 +79,13 @@
                     <a href="nosotros.html">Nosotros</a>
                 </li>
                 <li>
-                    <a href="areas.html">Areas atendidas</a>
+                    <a href="placavideo.html">Placas de video</a>
                 </li>
                 <li>
-                    <a href="prensa.html">Prensa y difusion</a>
+                    <a href="procesador.html">Procesadores</a>
+                </li>
+                <li>
+                    <a href="monitor.html">Monitores</a>
                 </li>
                 <li>
                     <a href="contacto.html">Contacto</a>
@@ -129,7 +93,7 @@
             </ul>
 
             <p class="copyright">
-                equipo MENTE Argentina 2023 ® todos los derechos reservados
+                HardGamer Argentina 2023 ® todos los derechos reservados
             </p>
     </footer>
         

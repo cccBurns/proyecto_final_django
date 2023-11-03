@@ -4,9 +4,38 @@
 <title>Crear Procesador</title>
 {% endblock title_head %}
 
-{% block h1_header %}
-Crear Procesador
-{% endblock h1_header %}
+{% block header %}
+<header class="header">
+    <div class="menu container">
+        <a href="#" class="logo">hard <span class="logospan">Gamers</span></a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+            <img src="./img/menu.png" class="menu-icono" alt="menu">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a class="navbar-brand" href={% url "inicio" %}>Inicio</a></li>
+                <li><a class="navbar-brand" href={% url "nosotros" %}>Nosotros</a></li>
+                <li><a class="navbar-brand" href={% url "placavideo" %}>Placas de video</a></li>
+                <li><a class="navbar-brand" href={% url "procesador" %}>Procesadores</a></li>
+                <li><a class="navbar-brand" href={% url "monitor" %}>Monitores</a></li>
+                <li><a href="contacto.html">Contacto</a></li>   
+            </ul>
+        </nav>
+    </div>
+
+    <div class="header-content container">
+        <div class="header-txt">
+            <h1><span class="green">Crear Procesador</span></h1>
+            <!-- <h2>¿Quienes somos?</h2> -->
+            <h1>
+                <strong>⬇</strong>
+            </h1>
+            <!-- <a href="#" class="btn-1">Informacion</a> -->
+        </div>
+    </div>
+</header>
+{% endblock header %}
 
 {% block main %}
 
