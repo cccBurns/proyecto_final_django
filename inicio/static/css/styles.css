@@ -34,7 +34,7 @@ img {
         rgba(29,30,35,0.4),
         rgba(29,30,35,0.4)
     ),
-    url(./img/curiosidades-de-la-carrera-de-medicina.jpg);
+    url(../assets/img/tecladogamer.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@ img {
 }
 
 .logo {
-    color: #01c1fc;
+    color: #01fc4c;
     font-size: 25px;
     font-weight: 800;
     text-transform: uppercase;
@@ -83,7 +83,7 @@ img {
 }
 
 .menu .navbar ul li a:hover {
-    color: #01c1fc;
+    color: #01fc4c;
 }
 
 #menu {
@@ -115,7 +115,7 @@ img {
 
 .header-txt p {
     font-size: 20px;
-    color: #2c2c2c;
+    color: #959595;
     margin-bottom: 35px;
 }
 
@@ -162,7 +162,7 @@ img {
 span {
     font-size: 14px;
     text-transform: uppercase;
-    color: #01c1fc;
+    color: #01fc4c;
 }
 
 .logospan {
@@ -179,7 +179,7 @@ h2 {
 }
 
 hr {
-    border: 1px solid rgb #01c1fc;
+    border: 1px solid rgb #01fc4c;
     width: 10%;
     margin-bottom: 30px;
 }
@@ -216,7 +216,7 @@ hr {
 span {
     font-size: 14px;
     text-transform: uppercase;
-    color: #01c1fc;
+    color: #01fc4c;
 }
 
 .logospan {
@@ -233,7 +233,7 @@ h2 {
 }
 
 hr {
-    border: 1px solid rgb #01c1fc;
+    border: 1px solid rgb #01fc4c;
     width: 10%;
     margin-bottom: 30px;
 }
@@ -374,7 +374,7 @@ label {
 
 .input-formulario input[type="submit"]:hover{
     background-color: #FFFFFF;
-    color: #01c1fc;
+    color: #01fc4c;
 }
 
 
@@ -407,7 +407,7 @@ label {
 span {
     font-size: 14px;
     text-transform: uppercase;
-    color: #01c1fc;
+    color: #01fc4c;
 }
 
 .logospan {
@@ -424,7 +424,7 @@ h2 {
 }
 
 hr {
-    border: 1px solid rgb #01c1fc;
+    border: 1px solid rgb #01fc4c;
     width: 10%;
     margin-bottom: 30px;
 }
@@ -466,7 +466,7 @@ hr {
 }
 
 .footer .social a:hover {
-    color: #01c1fc;
+    color: #01fc4c;
     opacity: 0.5;
 }
 
@@ -492,7 +492,7 @@ hr {
 }
 
 .footer ul li a:hover {
-    color: #01c1fc;
+    color: #01fc4c;
     opacity: 0.5;
 }
 
@@ -527,7 +527,7 @@ hr {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #01c1fc;
+        background-color: #01fc4c;
         display: none;
     }
 
