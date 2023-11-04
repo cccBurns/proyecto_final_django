@@ -4,10 +4,40 @@
 <title>HardGamer</title>
 {% endblock title_head %}
 
-{% block h1_header %}
-<h1>HardGamer</h1>
-<p>Los mejores componentes para tu PC!.</p>
-{% endblock h1_header %}
+{% block header %}
+
+<header class="header">
+    <div class="menu container">
+        <a href="#" class="logo">hard <span class="logospan">Gamers</span></a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+            <img src="../static/assets/img/menu.png" class="menu-icono" alt="menu">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a class="navbar-brand" href={% url "inicio" %}>Inicio</a></li>
+                <li><a class="navbar-brand" href={% url "nosotros" %}>Nosotros</a></li>
+                <li><a class="navbar-brand" href={% url "placavideo" %}>Placas de video</a></li>
+                <li><a class="navbar-brand" href={% url "procesador" %}>Procesadores</a></li>
+                <li><a class="navbar-brand" href={% url "monitor" %}>Monitores</a></li>
+                <li><a href="contacto.html">Contacto</a></li>   
+            </ul>
+        </nav>
+    </div>
+
+    <div class="header-content container">
+        <div class="header-txt">
+            <h1><span class="green">hard</span>Gamers</h1>
+            <!-- <h2>¿Quienes somos?</h2> -->
+            <p>
+                <strong>De gamers para gamers.</strong>
+            </p>
+            <!-- <a href="#" class="btn-1">Informacion</a> -->
+        </div>
+    </div>
+</header>
+
+{% endblock header %}
 
 {% block section %}
 
